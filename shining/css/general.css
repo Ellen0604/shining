@@ -1,0 +1,153 @@
+/* 共用样式 */
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	html,body{
+		min-width: 318px;
+		width: 100%;
+		/*height: 100%;*/
+		font-family: Arial,sans-serif;
+		overflow-x: hidden;
+	}
+	li{
+		list-style:none;
+	}
+	a{
+		text-decoration:none;
+	}
+
+	/* 头部 */
+	header{
+		background-color: #1B1B1B;
+		position: relative;
+		width: 100%;
+		height: 68px;
+	}
+	nav{
+		width: 100%;
+		max-width: 1128px;
+		margin: auto;
+		padding: 15px 0;
+		position: relative;
+	}
+
+	/* 显示的ul */
+	.showUl{
+		min-width: 660px;
+		position: absolute;
+		top: 34%;
+		right: 0%;
+		overflow: hidden;
+	}
+	.showUl li{
+		float: left;
+		margin-left: 5%;
+		padding: 4px 10px;
+	}
+	.showUl li a{
+		color: gray;
+		font-size: 16px;
+	}
+	.showUl li:hover{
+		border: 1px solid white;
+		border-radius: 9px;	
+	}
+	.showUl li:hover a{
+		color: white;
+	}
+
+	/* 隐藏的ul */
+	.hideNav{
+		text-align: right;
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		z-index: 999;
+		display: none;
+	}
+	.hideNav>img{
+		width: 30px;
+		cursor: pointer;
+	}
+	.hideUl{
+		text-align: center;
+		display: none;
+		opacity: 0.9;
+	}
+	.hideUl li{
+		width: 150px;
+		padding: 5px;
+		background-color: #CFDB00;
+	}
+	.hideUl li a{
+		font-size: 12px;
+		color: #A8A8A8;
+		font-weight: bold;
+		padding: 5px;
+	}
+	.hideUl li:hover a{
+		color: white;
+	}
+
+	/* 尾部 */
+	footer{
+		width: 100%;
+		position: relative;
+	}
+	.footer_con{
+		width: 300px;
+		position: relative;
+		margin: auto;
+	}
+	.mali_div{
+		width: 25px;
+		height: 25px;
+		margin: 35% auto;
+		position: relative;
+	}
+	.mali_div img{
+		width: 25px;
+		height: auto;	
+	}
+	.mali_div img:nth-of-type(2){
+		position: absolute;
+		left: 0;
+		top: 0;
+		display: none;
+	}
+	.mali_div:hover img:nth-of-type(2){
+		display: block;
+	}
+	.footer_con ul{
+		overflow: hidden;
+		position: relative;
+		margin-left: 28%; 
+	}
+	.footer_con li{
+		position: relative;
+		float: left;
+		margin-right: 10px;
+	}
+	.footer_con li img:nth-of-type(2){
+		position: absolute;
+		left: 0;
+		top: 0;
+		display: none;
+	}
+	.footer_con li:hover img:nth-of-type(2){
+		display: block;
+	}
+	.footer_con>p{
+		font-size: 12px;
+		color: #808080;
+		text-align: center;
+		margin-bottom: 15px; 
+	}
+	.footer_con>p a{
+		font-size: 12px;
+		color: #808080;
+	}
+	.footer_con>div,.footer_con>ul{
+		margin-bottom: 15px; 
+	}

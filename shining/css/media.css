@@ -1,0 +1,162 @@
+
+@media screen and (max-width: 850px){
+	.showUl{
+		display: none;
+	}
+	.hideNav{
+		display: block;
+	}
+	.bottomUl{
+		width: 344px;
+	}
+	.bottomUl li{
+		float: none;
+		margin-right: 0px;
+		margin-bottom: 30px;
+	}
+	.bimCon h2{
+		font-size: 18px;
+	}
+	.bimCon h2>span{
+		font-size: 24px;
+	}
+	.ConLeft li p{
+		/*max-width: 150px;*/
+		font-size: 14px;
+	}
+	.mepConLeft{
+		margin-left: 260px;
+	}
+	.mepConRight{
+		left: -50px;
+	}
+	.ConRightLeft{
+		left: 0px;
+	} 
+	.curtainConLeft{
+		margin-left: 120px;
+	}
+
+}
+@media screen and (max-width: 640px){
+	/* 通用 */
+	header{
+		height: 50px;
+	}
+	nav{
+		width: 90%;
+		padding: 10px 0;
+	}
+	.hideNav{
+		top: 12px;
+		right: 0px;
+	}
+	/* index.html */
+	.indexCon{
+		width: 100%;
+	}
+	.indexCon ul li{
+		width: 100%;
+		text-align: center;
+		float: none;
+	}
+	.indexCon ul .imgs_two{
+		float: none;
+		border-left: none;
+	}
+	.indexCon>a:hover ul .imgs_two{
+		border-left: none;
+	}
+	.indexCon ul .imgs{
+		width: 100%;
+		border-bottom: none; 
+	}
+	.indexCon ul .text{
+		width: auto;
+		height: auto;
+	}
+	.text h1{
+		font-size: 20px;
+	}
+	.text p,.bimCon h2{
+		font-size: 14px;
+	}
+
+	/* bim.html */
+	.bimCon h2>span{
+		font-size: 24px;
+	}
+	.ConBg{
+		padding-bottom: 8px;
+	}
+	.ConBox{
+		width: 90%;
+	}
+	.ConLeft li p{
+		max-width: 150px;
+		font-size: 12px;
+	}	
+	.ConRight{
+		width: 270px;
+	}
+	.modelConRight{
+		right: -90px;
+	}
+	.classConRight{
+		right: -55px;
+	}
+	.mepConRight{
+		top: 62px;
+		left: -100px;
+	}
+	.mepConLeft{
+		margin-left: 100px; 
+		padding-top: 50px;
+	}
+	.mepConLeft li p{
+		max-width: none;
+	}
+	.curtainConLeft{
+		margin-left: 0px;
+	}
+	.ConRightLeft{
+		left: -65px;
+	} 
+	.ConRightRight{
+		top: 50px;
+		right: -100px;
+	}
+	.curtainConLeft li img{
+		width: 160px;
+	}
+	.lastConRight{
+		right: -61px;
+	}
+
+	/* animation.html */
+	.content_t>p{
+		font-size: 18px;
+	}
+	.content_b ul li p{
+		font-size: 12px;
+	}
+
+	/* rendering */
+	.flow_img_wrap{
+		width: 50%;
+	}
+}
+@media screen and (max-width: 375px){
+	/* bim.html */
+	.classConLeft li img{
+		width: 160px;
+	}
+	.mepConLeft img{
+		width: 150px;
+	}
+
+	/* animation.html */
+	.playShowBtn,.playHideBtn{
+		top: 28%;
+	}
+}

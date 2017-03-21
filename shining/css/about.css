@@ -1,0 +1,45 @@
+	/*导航*/
+	.showUl li:nth-of-type(2){
+		border: 1px solid white;
+		border-radius: 9px;	
+	}
+	.showUl li:nth-of-type(2) a{
+		color: white;
+	}
+	.hideUl li:nth-of-type(2) a{
+		color: white;
+	}
+
+	/* 内容 */
+	.aboutCon{
+		background-color: #E3E3E3;
+	}
+	.contentBox{
+		box-sizing: border-box;
+		padding-top: 100px;
+		background: url(../imgs/about/world_map.png) center center no-repeat;
+	}
+	.contentBox>p{
+		font-size: 30px;
+		margin-bottom: 20px;
+		margin-left: 10px;
+	}
+	.aboutTextUl{
+		margin-left: 86px;
+	}
+	.aboutTextUl li{
+		max-width: 410px;
+		line-height: 34px;
+		margin-bottom: 100px;
+	}
+	.aboutTextUl li p{
+		word-break:break-all;
+	}
+	.aboutImgUl{
+		overflow: hidden;
+	}
+	.aboutImgUl li{
+		float: left;
+		margin-right: 50px;
+		margin-bottom: 20px;
+	}

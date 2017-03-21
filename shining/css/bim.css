@@ -1,0 +1,129 @@
+	/*导航*/
+	.showUl li:nth-of-type(5){
+		border: 1px solid white;
+		border-radius: 9px;	
+	}
+	.showUl li:nth-of-type(5) a{
+		color: white;
+	}
+	.hideUl li:nth-of-type(5) a{
+		color: white;
+	}
+	/*头部*/
+	header{	
+		min-width: 318px;
+		position: fixed;
+		z-index: 999;
+	}
+	nav{
+		max-width: 980px;
+	}
+	/*内容*/
+	.bimCon{
+		position: relative;
+	}
+	h2{
+		color: #616161;
+		font-weight: lighter;
+	}
+	h2>span{
+		padding: 0 5px;
+		border: 1px solid #616161;
+		border-radius: 5px;
+	}
+	
+	.ConBg{
+		height: 430px;
+		padding-top: 100px;
+		padding-bottom: 118px;
+		position: relative;		
+	}
+	.grayBg{
+		background-color: #E5E5E5;	
+	}
+	.ConBox{
+		width: 100%;
+    	max-width: 980px;
+		margin: auto;
+		position: relative;	
+	}
+	.ConLeft li{
+		margin-bottom: 20px;
+		position: relative;
+		z-index: 9;
+	}
+	.ConLeft li p{
+		max-width: 330px;
+	}
+	.ConRight{
+		width: 350px;
+		position: absolute;
+		z-index: 0;
+	}
+	.ConRight img{
+		width: 100%;
+	}
+
+	/* 内容1 */
+	.modelConLeft{
+		margin-top: 60px;
+	}
+	.modelConLeft li img{
+		min-width: 80px;
+		width: 13%;
+	}	
+	.modelConRight{
+		top: 0;
+		right: 0;
+	}
+
+	/* 内容2 */
+	.classConLeft li img{
+		min-width: 126px;
+		width: 20%;
+	}
+	.classConRight{
+		top: -100px;
+		right: 45px;
+	}
+
+	/* 内容3 */
+	.mepConLeft{
+		margin-left: 420px; 
+		padding-top: 100px;
+	}
+	.mepConLeft img{
+		width: 40%;
+	}
+	.mepConRight{
+		top: 0px;
+		left: -100px;
+		width: 394px;
+	}
+
+	/* 内容4 */
+	.curtainConLeft{
+		margin-left: 90px;
+		padding-top: 100px;
+	}
+	.ConRightLeft{
+		top: -100px;
+		left: -50px;
+		width: 394px;
+	}
+	.curtainConLeft li img{
+		width: 20%;
+	}
+	.ConRightRight{
+		top: 0px;
+		right: -90px;
+		width: 394px;
+	}
+
+	/* 内容5 */
+	.lastConRight{
+		top: -100px;
+		right: -34px;
+		width: 394px;
+	}
+	
