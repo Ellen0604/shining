@@ -528,7 +528,13 @@
 	var arrH=[];
 
 	var $flow_img_wrap = $(".flow_img_wrap:visible");
-
+	
+	var $imgs = $("img");
+	$imgs.ready(function(){
+		findMaxHeightFn();
+  		flowFn();
+	});
+	
 	flowFn();
 	function flowFn(){
 		
